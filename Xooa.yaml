@@ -11,16 +11,16 @@
 #     README:              -> Path to the documentation of the smart contract App [Optional Parameter]
 
 Apps:
-  CI-Test-SmartContract:
+  CI-Test-Get-Set:
     Name: Get-Set
     Description: Xooa Get Set Smart Contract
     path: /get-set/smartcontract
     language: go
-    README: https://github.com/Xooa/samples/blob/master/get-set/README.md
+    README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md
   Xooa-MS-Dynamics:
     Name: GetSetDel (multi key-value pairs)
     Description: Xooa Get Set Delete Smart Contract to store multiple keys in a single call
     path: /ms-dynamics/smartcontract/
     language: go
-    README: https://github.com/Xooa/samples/blob/master/MS-Dynamics/README.md
+    README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/MS-Dynamics/README.md
   
