@@ -11,14 +11,14 @@
 #     README:              -> Path to the documentation of the smart contract App [Optional Parameter]
 
 Apps:
-  CI-Test-Fabric_1.2_Get-Set:
+  CI-Test-Fabric-1.2-SmartContract:
     Name: CI-Test-Fabric_1.2_Get-Set
     Description: Xooa Get Set Smart Contract for Hyperledger Fabric 1.2
     path: /get-set/smartcontract
     language: go
     README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md
   
-  CI-Test-Ethereum-Get-Set:
+  CI-Test-Ethereum-SmartContract:
     Name: CI-Test-Ethereum-Get-Set
     Description: Xooa Get Set Smart Contract for Etherum
     path: /ethereum/Get-Set-Solidity.sol
