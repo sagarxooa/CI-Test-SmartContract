@@ -30,4 +30,11 @@ Apps:
     Description: Logging should generate huge data as chaincode is returning it
     path: /get-set/smartcontract
     language: go
-    README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md  
+    README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md
+
+  SmartContract-With-Swagger:
+    Name: SmartContract-With-Swagger
+    Description: Xooa Get Set Smart Contract for Hyperledger Fabric with swagger json file
+    path: /get-set-swagger-fabric/smartcontract
+    language: go
+    README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md
