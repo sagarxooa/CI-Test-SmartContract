@@ -44,4 +44,11 @@ Apps:
     Description: Xooa Get Set Smart Contract for Etherum with Swagger json file
     path: /eth-smartcontract-with-swagger/Get-Set-Solidity.sol
     language: solidity
-    README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md    
+    README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md
+  
+  Java-Smart-Contract:
+    Name: CI-Java-Smart-Contract
+    Description: Xooa Java Smart Contract for Hyperledger Fabric 1.2
+    path: /java-Smart-Contract/chaincode/chaincode_example02/java/
+    language: go
+    README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md
