@@ -59,3 +59,12 @@ Apps:
     path: /nodeJs-Smart-Contract/SmartContract/
     language: node
     README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md
+
+  Eth-Truffle-Smart-Contract:
+    Name: Election
+    Description: Solidity Smart Contract using Truffle framework
+    path: ./
+    mainSolFile: Election
+    language: solidity
+    truffle: true
+    README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md
