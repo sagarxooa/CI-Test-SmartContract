@@ -49,13 +49,13 @@ Apps:
   Java-Smart-Contract:
     Name: CI-Java-Smart-Contract
     Description: Xooa Java Smart Contract for Hyperledger Fabric 1.2
-    path: /SmartContract/
+    path: /java-Smart-Contract/SmartContract/
     language: java
     README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md
     
   NodeJS-Smart-Contract:
     Name: CI-NodeJS-Smart-Contract
     Description: Xooa NodeJS Smart Contract for Hyperledger Fabric 1.2
-    path: /SmartContract/
+    path: /nodeJs-Smart-Contract/SmartContract/
     language: node
     README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md
