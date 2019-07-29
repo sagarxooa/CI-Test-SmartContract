@@ -50,5 +50,5 @@ Apps:
     Name: CI-Java-Smart-Contract
     Description: Xooa Java Smart Contract for Hyperledger Fabric 1.2
     path: /java-Smart-Contract/chaincode/chaincode_example02/java/
-    language: go
+    language: java
     README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md
