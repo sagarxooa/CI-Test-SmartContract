@@ -63,7 +63,7 @@ Apps:
   Eth-Truffle-Smart-Contract:
     Name: Election
     Description: Solidity Smart Contract using Truffle framework
-    path: ./
+    path: /eth-truffle-contract/
     mainSolFile: Election
     language: solidity
     truffle: true
