@@ -76,7 +76,7 @@ func (t *SimpleAsset) getVersion(stub shim.ChaincodeStubInterface) peer.Response
 // Set stores the asset (both key and value) on the ledger. If the key exists,
 // it will override the value with the new one
 func (t *SimpleAsset) set(stub shim.ChaincodeStubInterface, args []string) peer.Response {
-	logger.Debug("set() called.")
+	logger.Info("set() called.")
 	if len(args) != 2 {
 		logger.Error("Incorrect number of arguments passed in set.")
 		resp := shim.Error("Incorrect number of arguments. Expecting 2 arguments: " + strconv.Itoa(len(args)) + " given.")
