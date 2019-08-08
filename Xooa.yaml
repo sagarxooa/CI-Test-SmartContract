@@ -25,13 +25,6 @@ Apps:
     language: solidity
     README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md
     
-  Xooa-Get-Set-Long-Data:
-    Name: Xooa-Get-Set-Long-Data
-    Description: Logging should generate huge data as chaincode is returning it
-    path: /get-set/smartcontract
-    language: go
-    README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md
-
   Fabric-SmartContract-With-Swagger:
     Name: Fabric-SmartContract-With-Swagger
     Description: Xooa Get Set Smart Contract for Hyperledger Fabric with swagger json file
