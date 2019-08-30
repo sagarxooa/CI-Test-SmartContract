@@ -1,6 +1,6 @@
 pragma solidity ^0.4.0;
 
-contract Get-Set-Solidity{
+contract GetSetSolidity{
 
     mapping (string => string) state;
     event StateSaveEvent(string key, string value);

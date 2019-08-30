@@ -21,7 +21,7 @@ Apps:
   CI-Test-Ethereum-SmartContract:
     Name: CI-Test-Ethereum-Get-Set
     Description: Xooa Get Set Smart Contract for Etherum
-    path: /ethereum/Get-Set-Solidity.sol
+    path: /ethereum/GetSetSolidity.sol
     language: solidity
     README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md
     
