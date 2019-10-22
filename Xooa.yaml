@@ -54,10 +54,10 @@ Apps:
     README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md
 
   Eth-Truffle-Smart-Contract:
-    Name: Election
+    Name: Supply Chain SC
     Description: Solidity Smart Contract using Truffle framework
-    path: /eth-truffle-contract/
-    mainSolFile: Election
+    path: /eth-truffle-contract/Solidity/
+    mainSolFile: Supply Chain SC
     language: solidity
     truffle: true
     README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md

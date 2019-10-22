@@ -1,48 +1,33 @@
+# Xooa SupplyChain Log Smart Contract (Using Truffle Framework)
 
-# Election - DAPP Tutorial
-Build your first decentralized application, or Dapp, on the Ethereum Network with this tutorial!
+# Overview
+	This smart contract provides 5 functions:
+  * addOrder
+  * isExistingOrder
+  * getOrderCount
+  * getOrderIdAtIndex
+  * getOrderById
 
-Full Free Video Tutorial:**
-https://youtu.be/3681ZYbDSSk
+#### addOrder
+addOrder method creates a new order in the ledger.
+This method creates a transaction in the blockchain ledger and stores the key-value pair.
+If it succeeds in creating the transaction, it returns a response with transactionId.
 
-## 2019 Updated Code
-https://github.com/dappuniversity/election/tree/2019_update
+#### isExistingOrder
+isExistingOrder method verifies if order already exists in the ledger.
+This method expects a single argument as the orderId whose existence is to be checked.
+If it succeeds, it returns a response as boolean true.
 
-Follow the steps below to download, install, and run this project.
+#### getOrderCount
+getOrderCount method fetches total count of the orders.
+If it succeeds, it returns a response with count of total orders.
 
-## Dependencies
-Install these prerequisites to follow along with the tutorial. See free video tutorial or a full explanation of each prerequisite.
-- NPM: https://nodejs.org
-- Truffle: https://github.com/trufflesuite/truffle
-- Ganache: http://truffleframework.com/ganache/
-- Metamask: https://metamask.io/
+#### getOrderIdAtIndex
+getOrderIdAtIndex method fetches the orderId at a given index.
+This method expects a single argument as the index.
+If it succeeds, it returns a response with orderId at the given index.
 
-
-## Step 1. Clone the project
-`git clone https://github.com/dappuniversity/election`
-
-## Step 2. Install dependencies
-```
-$ cd election
-$ npm install
-```
-## Step 3. Start Ganache
-Open the Ganache GUI client that you downloaded and installed. This will start your local blockchain instance. See free video tutorial for full explanation.
-
-
-## Step 4. Compile & Deploy Election Smart Contract
-`$ truffle migrate --reset`
-You must migrate the election smart contract each time your restart ganache.
-
-## Step 5. Configure Metamask
-See free video tutorial for full explanation of these steps:
-- Unlock Metamask
-- Connect metamask to your local Etherum blockchain provided by Ganache.
-- Import an account provided by ganache.
-
-## Step 6. Run the Front End Application
-`$ npm run dev`
-Visit this URL in your browser: http://localhost:3000
-
-If you get stuck, please reference the free video tutorial.
-
+#### getOrderById
+getOrderById method fetches the details for the given orderId
+This method expects a single argument as orderId.
+If it succeeds, it returns a response with order details of the given orderId.
