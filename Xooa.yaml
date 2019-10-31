@@ -55,9 +55,9 @@ Apps:
 
   Eth-Truffle-Smart-Contract:
     Name: Supply Chain SC
-    Description: Solidity Smart Contract using Truffle framework
+    Description: Truffle Framework Supply chain Smart Contract
     path: /eth-truffle-contract/Solidity/
-    mainSolFile: Supply Chain SC
+    mainSolFile: SupplyChainLogContract
     language: solidity
     truffle: true
     README: https://github.com/Xooa/CI-Test-SmartContract/blob/master/get-set/README.md
